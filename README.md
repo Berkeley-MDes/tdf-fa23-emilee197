@@ -11,6 +11,10 @@ The specific file that I’m typing into right now is the **README.md** for this
 
 ### :star: Whatever you write in your **README.md** will show up on the “front page” of your GitHub repo. This is where we’ll be looking for your [weekly progress reports](https://github.com/Berkeley-MDes/desinv-202/wiki/3.0-Weekly-Submissions). They might look something like this: ###
 ---
+# Report 1 - Week of 08/21/2023 #
+We started off the semester running with our first project that primarily uses Rhino and Grasshopper. This was not only my first time using Rhino/Grasshopper but my first time ever using a 3D modeling software! Watching the demos was quite intimidating as everything from the basic interface to the complex code base seemed incomprehensible. I started off by watching Kyle's videos, which were incredibly detailed but because of my novelty to this domain, remained still too advanced. After struggling through the three videos, I scaled back my ego to start from the beginning...like the very basics. The Rhino introduction videos on how to even pan, zoom, and switch orientations was much more digestable and gave me hope that I could begin to tackle this software. 
+
+---
 # Example Report 1 - Week of 08/21/2023 #
 This week, I designed a cool phone stand made of rocks. Check out all my cool sketches and progress photos from this week below, etc., etc....
 
