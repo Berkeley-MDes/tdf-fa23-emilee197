@@ -7,9 +7,9 @@ I scheduled to print my phone stand on Monday morning so I had to have my file r
 
 
 <p float="left">
-  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8654.jpg" width="250" />
-  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8657.jpg" width="250" /> 
-  <img src="./weekly-reports/laser_cut_phone.jpg" width="250" />
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8654.jpg" width="33%" />
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8657.jpg" width="33%" /> 
+  <img src="./weekly-reports/laser_cut_phone.jpg" width="33%" />
 </p>
 
 <!--
@@ -17,3 +17,7 @@ I scheduled to print my phone stand on Monday morning so I had to have my file r
 <img width="200" alt="Cool Phone Stand made of rocks" src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8657.jpg">
 <img width="200" alt="Cool Phone Stand made of rocks" src="./weekly-reports/laser_cut_phone.jpg">
 -->
+
+Our class on Monday 8/28 was really helpful in understanding how to navigate some of the Rhino and Grasshopper files together. I was finally able to set my own parameters in Grasshopper and see them reflected in Rhino! 
+
+<img src="RhinoGrasshopperParam.png" width="50%">
