@@ -21,3 +21,5 @@ I scheduled to print my phone stand on Monday morning so I had to have my file r
 Our class on Monday 8/28 was really helpful in understanding how to navigate some of the Rhino and Grasshopper files together. I was finally able to set my own parameters in Grasshopper and see them reflected in Rhino! 
 
 <img src="RhinoGrasshopperParam.png" width="50%">
+
+I have an iphone 13 mini, which has dimensions of 131.5 x 64.2 x 7.7 mm. I tried adjusting the parameters in grasshopper to reflect my own phone, but the first time I tried this, the programs crashed my laptop. The second time however, it worked, which is seen in the picture below:
