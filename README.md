@@ -5,5 +5,5 @@ We started off the semester running with our first project that primarily uses R
 
 <img width="200" alt="Cool Phone Stand made of rocks" src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8654.jpg">
 <img width="200" alt="Cool Phone Stand made of rocks" src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/IMG_8657.jpg">
-<img width="200" alt="Cool Phone Stand made of rocks" src="../laser_cut_phone.jpg">
+<img width="200" alt="Cool Phone Stand made of rocks" src="./weekly-reports/laser_cut_phone.jpg">
 
