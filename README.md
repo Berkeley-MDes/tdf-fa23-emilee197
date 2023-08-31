@@ -25,3 +25,5 @@ Our class on Monday 8/28 was really helpful in understanding how to navigate som
 I have an iphone 13 mini, which has dimensions of 131.5 x 64.2 x 7.7 mm. I tried adjusting the parameters in grasshopper to reflect my own phone, but the first time I tried this, the programs crashed my laptop. The second time however, it worked, which is seen in the picture below in the lower right context box. I found it hard to adjust the slider bars to the exact measurements, so I ended up just finding the components in Grasshopper and manually typing in the exact measurements.
 
 <img src="./photo/ParameterChange.png" width="75%" />
+
+The following day on 8/30, I went into the Makerspace to work with my peers and ask for advice from the design specialists. This was definitely one of the most rewarding work sessions, just gathering insight from the specialist and knowledge sharing with my other classmates. I was able to learn how to group together things to help organize parameters and write Python scripts in Grasshopper to create new objects or functions. 
