@@ -11,8 +11,14 @@ Every ideation always starts off with research, so I returned to the slide deck 
 ![VideoMic](https://images.ctfassets.net/j7pfe8y48ry3/1fq7ryhVTeSGSyikgGcUKk/5f522ba878d5b35b5e9ada1cca26cfab/Screen_Shot_2018-06-18_at_5.11.21_PM.png)
 ![VideoLight](https://uploads-ssl.webflow.com/61005d24feea1014e5ad8d50/6265da095a148b649e1a1639_pexels-rodnae-productions-8370329.jpg.jpg)
 
+I also watched a couple different knitting and crocheting videos on Youtube to observe what some of the standard practices in this domain are. One important thing that I extracted from this research process was that these video creators always include some, if not majority, of screen time on the actual hands and knitting pattern itself. This indicates that it is important for the video to not only capture the user's upper body but also provide an avenue to lower the orientation to focus on the pattern. 
 
-By identifying different foundational needs of the user, I began sketching different ideas of prototypes to explore. 
+By identifying different foundational needs of the user, I began sketching different ideas of prototypes to explore. The two sketches on the top of the page were just exploring different ways for the actual stand to be built. The bottom two sketches began experimenting with what focus areas the phone needs to capture. The sketch on the very bottom reflects the new user need for the phone holder height and orientation to be adjustable in order to account for different shooting angles. 
+<p align="center">
+  <img width="400" alt="Phone Stand Sketches of Different Prototypes" src="./photo/brain scribbles-3.jpg">
+</p>
+
+After sketching, I was unsure of how to proceed from the ideation point because I struggled with identifying how I could technically and concretely make these sketches into fruition. Because my background never touched engineering, I did not know what different methods or materials I could use to join certain parts or enable certain functionalities (i.e. adjustability, joints, etc).
 
 # Report 1 - Week of 08/21/2023 #
 We started off the semester running with our first project that primarily uses Rhino and Grasshopper. This was not only my first time using Rhino/Grasshopper but my first time ever using a 3D modeling software! Watching the demos was quite intimidating as everything from the basic interface to the complex code base seemed incomprehensible. I started off by watching Kyle's videos, which were incredibly detailed but because of my novelty to this domain, remained still too advanced. After struggling through the three videos, I scaled back my ego to start from the beginning...like the very basics. The Rhino introduction videos on how to even pan, zoom, and switch orientations was much more digestable and gave me hope that I could begin to tackle this software. 
