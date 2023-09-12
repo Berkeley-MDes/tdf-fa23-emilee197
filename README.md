@@ -23,7 +23,7 @@ I liked this iteration a lot more than the first two, but I still think the over
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/iteration_v2.jpg" alt="second iteration sketch" width="40%" />
 
-I loved the simplicity of this design a lot more and could picture how the pieces could come together through laser cutting. Now the challenge lied in getting this modeled in Rhino and ensuring the dimensions lined up to that of my phone. 
+I loved the simplicity of this design a lot more and could picture how the pieces could come together through laser cutting. Now the challenge lied in getting this modeled in Rhino and ensuring the dimensions lined up to that of my phone. I went into the Makerspace to get Cody's opinions and advice on how to approach this problem, since I didn't even know how to start modeling this. He gave me a direction to work with, which I noted down in purple in the sketch above.
 
 # Report 2 - Week of 09/04/2023 #
 This week's assignment to reiterate on our previous designs turned out to be a lot more difficult than before. The last week's assignment was more centered along technical understanding, in which all I had to do was watch tutorials and experimenting on the software itself. This week's requires more reflection and ideation on how to improve upon last week's design. The avenues as to which we could do this were so broad that I struggled with settling down how I wanted to proceed. The first idea I had was to completely engage in a novel redesign of the phone stand.
