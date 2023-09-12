@@ -1,4 +1,29 @@
 # Emily Lee's GitHub Repository
+-
+# Report 3 - Week of 09/11/2023 #
+It's the last stretch of project 1! With the final deliverables of our project finalized, this week has been a big mental battle in just determining how ambitious I want to take this project and understanding what my limits are, in consideration of very tight time constraints. I wanted to challenge myself to create a completely novel design because I was inspired by the work of my other classmates and the demos our faculty mentors had walked us through. Since I actually don't have a phone stand, I wanted to still create a phone stand for personal use but one that a couple new requirements:
+- fit my aesthetic (I love simple, yet cute designs!)
+- simultaneously allow for charging since I am often on video call, which kills my battery quickly
+- can fit my air pod case since I sometimes misplace it after removing the actual air pods for use
+
+On Friday, I began the ideation process. In Asia, it is really popular to have animals model the design of many practical objects. Phone stands are one of them, and I remember seeing adorable ones being sold in stores when I traveled back to Taiwan over the summer. Right before the pandemic happened, I traveled to Japan for the first time and had the opportunity to see the beautiful shrines in Kyoto. One memorable thing was how reverant foxes were considered at these temples as a symbol of luck and protection. Thus, I wanted to combine these ideas to create a fox-shaped phone stand. Below are sketches of a couple ideas I played around with. I am also new to sketching, so these took over 4 hours as I struggled to figure out how to incorporate perspective correctly to convey the ideas I had. 
+
+<p float="left">
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/sketch1.jpg" alt="1st sketch of first iteration" width="40%" />
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/sketch2.jpg" alt="2nd sketch of ideation" width="40%" /> 
+</p>
+
+The design of the fox remains the same in both designs, with the peak of the nose acting as the point of contact with the phone to keep it held at certain height, and the gap between the head and tail creating the container for the air pods. The main decision came down to how the base should be designed, since it had to be elevated to allow for the phone to charge and the wire to not snap. I wanted to challenge myself to laser cut the design so I had to plan ahead on what was practical to create through this methodology. Sketch #1 on the left incorporated a simple easel design to create height, which would be easy to implement as a simple piece to cut out and insert into the main base. Sketch #2 on the right utilized a thicker base box on the bottom to create the height needed to allow for phone charging with the wire. I liked the orientation of the foxes more in Sketch #2, but I didn't like how clunky the entire design looked. Sketch #1 was more feasible but I didn't like how the foxes leaned back and the overall designed also seemed a bit crude. 
+
+I presented the sketches to my dad over the weekend to get his thoughts, and he gave me a great idea to find a compromise between the two sketches. Instead of creating a whole base, I could instead just create two "legs" to elevate the platform and lock them into the platform with inserts to increase stability of the entire structure if it was lifted. Below was a rough sketch of the new idea:
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/sketch3.jpg" alt="3rd sketch of first iteration" width="40%" />
+
+I liked this iteration a lot more than the first two, but I still think the overall look didn't fit the aesthetic I was going for; I wasn't satisfying my first requirement and wanted a redesign. I kept thinking of different ways to remove unnecessary pieces to the stand and eventually turned to exploring different orientations of the fox itself. By positioning the foxes legs further and acting as the stand for the phone, I could keep using the nose as the point of stabilizing the phone angle and remove a separate base all together. Below is the sketch of my final idea:
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/iteration_v2.jpg" alt="second iteration sketch" width="40%" />
+
+I loved the simplicity of this design a lot more and could picture how the pieces could come together through laser cutting. Now the challenge lied in getting this modeled in Rhino and ensuring the dimensions lined up to that of my phone. 
 
 # Report 2 - Week of 09/04/2023 #
 This week's assignment to reiterate on our previous designs turned out to be a lot more difficult than before. The last week's assignment was more centered along technical understanding, in which all I had to do was watch tutorials and experimenting on the software itself. This week's requires more reflection and ideation on how to improve upon last week's design. The avenues as to which we could do this were so broad that I struggled with settling down how I wanted to proceed. The first idea I had was to completely engage in a novel redesign of the phone stand.
