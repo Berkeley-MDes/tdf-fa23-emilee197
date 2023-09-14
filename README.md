@@ -1,5 +1,5 @@
 # Emily Lee's GitHub Repository
--
+
 # Report 3 - Week of 09/11/2023 #
 It's the last stretch of project 1! With the final deliverables of our project finalized, this week has been a big mental battle in just determining how ambitious I want to take this project and understanding what my limits are, in consideration of very tight time constraints. I wanted to challenge myself to create a completely novel design because I was inspired by the work of my other classmates and the demos our faculty mentors had walked us through. Since I actually don't have a phone stand, I wanted to still create a phone stand for personal use but one that a couple new requirements:
 - fit my aesthetic (I love simple, yet cute designs!)
@@ -46,9 +46,13 @@ The last step was exporting it into Adobe Illustrator and changing the line widt
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/finalSide.jpeg" alt="second iteration sketch" width="60%" />
 
 
-Overall, this project really challenged me with working with tools and understanding them to a degree high enough to manipulate them in a collaborative fashion. Rhino, Adobe Illustrator, and laser cutting all surprised me with new problems that I didn’t encounter before but pushed me to really ask questions from my peers and design specialists for further help. I tried to transfer my Rhino designs into Grasshopper but because this was new to me as well, I ran out of time trying to figure out how to convert the drawings into a bRep in Grasshopper where I was hoping to change the parameters and have them respond in Rhino. The picture on the bottom left is an image of the start of my Grasshopper file where I tried importing each piece of the stand separately. Ideally, I would have loved to be able to model my phone in Grasshopper, as well as the fox so I could see what would happen if I could change the distance between the fox’s nose and legs, or the entire size of the fox itself. However, I am glad that I was at least able to play with the parameters within Grasshopper using the original files the instructors gave us to fit the specific dimensions of my phone. 
+Overall, this project really challenged me with working with tools and understanding them to a degree high enough to manipulate them in a collaborative fashion. Rhino, Adobe Illustrator, and laser cutting all surprised me with new problems that I didn’t encounter before but pushed me to really ask questions from my peers and design specialists for further help. I tried to transfer my Rhino designs into Grasshopper but because this was new to me as well, I ran out of time trying to figure out how to convert the drawings into a bRep in Grasshopper where I was hoping to change the parameters and have them respond in Rhino. The picture on the bottom left is an image of the start of my Grasshopper file where I tried importing each piece of the stand separately. Ideally, I would have loved to be able to model my phone in Grasshopper, as well as the fox so I could see what would happen if I could change the distance between the fox’s nose and legs, or the entire size of the fox itself. However, I am glad that I was at least able to play with the parameters within Grasshopper using the original files the instructors gave us to fit the specific dimensions of my phone, as shown in the bottom right image. Since this was the triceratops level requirements, satisfying this was a huge motivation for me to try to push my boundaries in what I could design. 
 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/GrasshopperControl.png" alt="second iteration sketch" width="50%" />
+<p float="left">
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/foxInGrasshopper.png" alt="first try to parametrize rhino objects in grasshopper" width="45%" />
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/GrasshopperControl.png" alt="second iteration sketch" width="45%" />
+</p>
+
 
 Next time, I would love to learn how to import or even build my figure directly from Grasshopper to enable the parameter functionalities. I also wish my designs had cut out more cleanly on the laser cutters, but I am still proud of my final product and the fact that I was able to create a novel design from scratch when I came in with zero background experience with these tools. Feel free to check out the video presentation of my project [here](https://www.youtube.com/watch?v=ImFG2MZH6ZM)! 
 
