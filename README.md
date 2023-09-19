@@ -1,9 +1,18 @@
 # Emily Lee's GitHub Repository
 
 # Report 4 - Week of 09/18/2023 #
-It's electronics week! Our first assignment was to set up our Particle microcontroller, which required us to register our device and connect it to our wifi. Playing around with all of the components in our box, it felt like I was a kid opening up a Christmas present... except I had no idea what I was looking at. It was fun being able to match each component to the hardware glossary that was recommended for us to read. During the set up process, the one part I had a problem one was finding an antenna. The instructions tell us to connect the microcontroller to our laptop and also the antenna, but I could not find what this was. Turns out, I didn't need the part to actually connect to my laptop.
+It's electronics week! Our first assignment was to set up our Particle microcontroller, which required us to register our device and connect it to our house WiFi. Playing around with all of the components in our box, it felt like I was a kid opening up a Christmas present... except I had no idea what I was looking at. It was fun being able to match each component to the hardware glossary that was recommended for us to read and get a brief understanding of what each part contributed to the sustem. During the set up process, the one part I had a problem one was finding an antenna. The instructions tell us to connect the microcontroller to our laptop and also the antenna, but I could not find what this was. Turns out, I didn't need the part to actually connect to my laptop. Moving onto the next step, I was tasked to extract my device's MAC address. 
 
-Moving onto the next step however, I had a difficult time getting me device's MAC address out. I flashed the code and opened up the USB serial debug log, but my MAC address still didn't appear. I kept trying to debug it and started looking at different ways to identify my MAC address but it finally worked when I clicked on "Copy This App" and ran the code from there. For some reason, it wasn't connecting to Serial when I ran the code directly from the original App. After saving my MAC address, I registered my MAC to the Berkeley IoT Wi-fi from home, which, fortunately, went all smoothly. 
+<p align="center">
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/ParticleAddress.png" alt="second iteration sketch" width="50%" />
+</p>
+
+I followed the directions to flash the code and open up the USB serial debug log, but my MAC address still didn't appear. I kept trying to debug it and started looking at different ways to identify my MAC address, but it finally worked when I clicked on "Copy This App" and ran the code from there. This is shown in the image below on the right, whereas the failed attempts were captured in the image on the left. For some reason, the code wasn't connecting to Serial when I ran the code directly from the original App. After saving my MAC address, I registered my MAC to the Berkeley IoT Wi-fi from home, which, fortunately, proceeded smoothly. 
+
+<p float="left">
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/failLog.png" alt="second iteration sketch" width="45%" />
+  <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/successLog.png" alt="second iteration sketch" width="45%" />
+</p>
 
 # Report 3 - Week of 09/11/2023 #
 It's the last stretch of project 1! With the final deliverables of our project finalized, this week has been a big mental battle in just determining how ambitious I want to take this project and understanding what my limits are, in consideration of very tight time constraints. I wanted to challenge myself to create a completely novel design because I was inspired by the work of my other classmates and the demos our faculty mentors had walked us through. Since I actually don't have a phone stand, I wanted to still create a phone stand for personal use but one that a couple new requirements:
