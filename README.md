@@ -7,7 +7,7 @@ It's electronics week! Our first assignment was to set up our Particle microcont
   <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/ParticleAddress.png" alt="second iteration sketch" width="50%" />
 </p>
 
-I followed the directions to flash the code and open up the USB serial debug log, but my MAC address still didn't appear. I kept trying to debug it and started looking at different ways to identify my MAC address, but it finally worked when I clicked on "Copy This App" and ran the code from there. This is shown in the image below on the right, whereas the failed attempts were captured in the image on the left. For some reason, the code wasn't connecting to Serial when I ran the code directly from the original App. After saving my MAC address, I registered my MAC to the Berkeley IoT Wi-fi from home, which, fortunately, proceeded smoothly. 
+I followed the directions to flash the code and open up the USB serial debug log, but my MAC address still didn't appear. I kept trying to debug it and started looking at different ways to identify my MAC address, but it finally worked when I clicked on "Copy This App" and ran the code from there. This is shown in the image below on the right, where a bright green square conceals my actual address for privacy issues, and the failed attempts were captured in the image on the left. For some reason, the code wasn't connecting to Serial when I ran the code directly from the original App. After saving my MAC address, I registered my MAC to the Berkeley IoT Wi-fi from home, which, fortunately, proceeded smoothly. 
 
 <p float="left">
   <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/failLog.png" alt="second iteration sketch" width="45%" />
