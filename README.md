@@ -1,5 +1,8 @@
 # Emily Lee's GitHub Repository
 
+# Report 4 - Week of 09/18/2023 #
+It's electronics week! Our first assignment was to set up our Particle microcontroller, which required us to register our device and connect it to our wifi. Playing around with all of the components in our box, it felt like I was a kid opening up a Christmas present... except I had no idea what I was looking at. It was fun being able to match each component to the hardware glossary that was recommended for us to read. During the set up process, the one part I had a problem one was finding an antenna. The instructions tell us to connect the microcontroller to our laptop and also the antenna, but I could not find what this was. Turns out, I didn't need the part to actually connect to my laptop.
+
 # Report 3 - Week of 09/11/2023 #
 It's the last stretch of project 1! With the final deliverables of our project finalized, this week has been a big mental battle in just determining how ambitious I want to take this project and understanding what my limits are, in consideration of very tight time constraints. I wanted to challenge myself to create a completely novel design because I was inspired by the work of my other classmates and the demos our faculty mentors had walked us through. Since I actually don't have a phone stand, I wanted to still create a phone stand for personal use but one that a couple new requirements:
 - fit my aesthetic (I love simple, yet cute designs!)
