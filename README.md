@@ -1,5 +1,7 @@
 # Emily Lee's ~~brain dump~~ GitHub Repository:)
 
+![](https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/dogGif.gif)
+
 # Report 4 - Week of 09/18/2023 #
 It's electronics week! Our first assignment was to set up our Particle microcontroller, which required us to register our device and connect it to our house WiFi. Playing around with all of the components in our box, it felt like I was a kid opening up a Christmas present... except I had no idea what I was looking at. It was fun being able to match each component to the hardware glossary that was recommended for us to read and get a brief understanding of what each part contributed to the sustem. During the set up process, the one part I had a problem one was finding an antenna. The instructions tell us to connect the microcontroller to our laptop and also the antenna, but I could not find what this was. Turns out, I didn't need the part to actually connect to my laptop. Moving onto the next step, I was tasked to extract my device's MAC address. 
 
