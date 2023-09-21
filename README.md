@@ -14,6 +14,8 @@ I followed the directions to flash the code and open up the USB serial debug log
   <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/successLog.png" alt="second iteration sketch" width="45%" />
 </p>
 
+I brought my Photon2 to school on Wednesday since step 5 required us to be connected to school wifi. On campus, I was able to navigate to the section in Particle's documentation on configuring wifi to connect to Berkeley IOT and enter my newly acquired password. Below are screenshots of the process and the finally successful state!
+
 # Report 3 - Week of 09/11/2023 #
 It's the last stretch of project 1! With the final deliverables of our project finalized, this week has been a big mental battle in just determining how ambitious I want to take this project and understanding what my limits are, in consideration of very tight time constraints. I wanted to challenge myself to create a completely novel design because I was inspired by the work of my other classmates and the demos our faculty mentors had walked us through. Since I actually don't have a phone stand, I wanted to still create a phone stand for personal use but one that a couple new requirements:
 - fit my aesthetic (I love simple, yet cute designs!)
