@@ -2,6 +2,13 @@
 
 ![](https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/dogGif.gif)
 
+# Report 9 - Week of 10/23/2023 #
+
+<p>
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="AI file for laser cutting box" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="assembled laser cut cat box" width="45%"> 
+</p>
+
 # Report 8 - Week of 10/16/2023 #
 Ohhh here we are in the final stretch once again. The last week of prototyping is always a rush of madness, excitement, disappointment, and surprises. We started off our last class work session on Monday with the goal of connecting our photons. During this class, Shayne and Katherine were working together to troubleshoot the OLED, since the code seemed to fine but the OLED wasn't displaying any message. Since having at least 2 photons communicate was a base requirement of this project, it was necessary we figured it out and we decided the most efficient way was to split into 2 teams. Going into this session, TJ had posted 2 examples of working code for photon communication but the common understanding was that we had to have one person unclaim their Photon and the other claim a second device. My teammate, Stephanie, and I first tried going this route as she unclaimed her device, but I was unable to claim it since the system continuously recognized her device as belonging to someone else. This was really confusing since we heard that other teams were able to successfully transfer ownership of photons to each other, but we were incredibly lucky that our TA, Shm, was able to give us another workaround. Instead of changing ownership, we would instead create a team and have both of our Photons on their so each team member could access any device on the team. After some troubleshooting, we were able to join the same team and flash code to one another! Below is a picture of Stephanie's photon publishing an event to my photon, which subscribed and responded by blinking the D7 LED. 
 
