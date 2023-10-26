@@ -53,10 +53,12 @@ Another functionality I wanted to implement was for the LLM to scrap my LinkedIn
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/a6a0a661-2194-4e68-9517-ae51f44592a7" alt="Updated Instructions for LLM" width="50%"> 
 
-SPECULATIONS
+SPECULATIONS:
+
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
 
 QUESTIONS FOR CLASS:
+
 1. Have you considered including Claude 2 as an option for the base LLM since it has a much higher token limit? Wouldn't this help with context retention if someone was to run a longer conversation with the LLM or want to refer to something previously said?
 2. How can I properly scrape a website so the LLM can access its information?
 
