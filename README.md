@@ -19,9 +19,12 @@ After breaking down all my reports into a separate knowledge set and linking it 
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/28549dd4-099c-45a6-bac3-240149617c11" width="400" height="500" />
 
-However, when I continued the conversation and tried to ask for details on my first project, the LLM failed and returned a response that indicated my mental health digital ecosystem was the only project I had done in this class! 
+However, when I continued the conversation and tried to ask for details on my first project, the LLM failed and returned a response that indicated my mental health digital ecosystem was the only project I had done in this class! I had to specifically prompt the LLM to talk about my first project with Grasshopper and Rhino in order for it to return any information on it. Since both weekly reports were included in the knowledge sets, I was confused as to why it was giving me these answers. Could it be due to the fact that it only pulled from knowledge sets it deemed relevant? If everything was grouped into one knowledge set, which I wouldn't do to prevent exceeding token count, would this still happen? I also hate how it continuously refers to the wiki, even when the user doesn't specifically ask for deeper documentation of photos.
 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/1fd234d2-b0c7-4ac8-b831-9f8ef410578d" width="400" height="500" />
+<p>
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/1fd234d2-b0c7-4ac8-b831-9f8ef410578d" alt="AI file for laser cutting box" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/9cf124b6-7821-405c-b5f8-2a0f45b1068b" alt="assembled laser cut cat box" width="45%"> 
+</p>
 
 
 
