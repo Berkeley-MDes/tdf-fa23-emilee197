@@ -35,6 +35,15 @@ A workaround I did was to type a little summary of what projects I mainly did in
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/59a78a72-da1f-4239-a8a2-c7de2ac9c5dd" alt="Updated Instructions for LLM" width="75%"> 
 
+The next day I tested it, however, it began showing the link as the function itself, instead of just providing a hyperlink as it was doing before:
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/d4f1f6ae-7ddf-4554-a48e-ca28145a0719" alt="github link given in function" width="50%"> 
+I am not quite sure what is controlling this and what I should toggle in order to get the model to display the link as a normal hyperlink. Given our assignment parameters, I began playing around what the temperature slider. It was originally set at 0.9, with higher values making the output more random and lower values making them more deterministic. When asking the LLM the question, "what are Emily's strengths and weaknesses", it was crazy to see the difference in output as I shifted the temperature.
+
+At a temperature of 1.7, the output not only took longer to generate but was completely random. It started off on the right foot and then started spitting out words that weren't even English.
+
+At a temperature of 1.2, it stopped hallucinating and was answering the prompt reasonably based on the knowledge sets provided.
+
+At a temperature of 0.25, it still answered the question but very conservatively. It explicitly stated that it doesn't have explicit information on a topic but still tries to answer the question. It just doesn't elaborate as much into each characteristic.
 
 SPECULATIONS
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
