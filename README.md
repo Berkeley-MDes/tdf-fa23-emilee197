@@ -26,6 +26,14 @@ However, when I continued the conversation and tried to ask for details on my fi
     <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/9cf124b6-7821-405c-b5f8-2a0f45b1068b" alt="assembled laser cut cat box" width="45%"> 
 </p>
 
+A workaround I did was to type a little summary of what projects I mainly did in the instructions themselves, which seemed to solve the problem. Another funny scenario I popped into was tied to the importance of wording or prompt engineering. When I first used "you", the LLM was conscious of its role and declined to answer as a "version of me". Since the user should be interacting as if it is talking to me, I added instructions for the LLM to act and answer for me. 
+
+<p>
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/84aab8ce-912d-465d-9e86-03b47d784232" alt="LLM fails to recognize 'you'" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/ef0a5684-e592-4bd7-b9eb-4582a9f8725a" alt="LLM responds to 'you' after adding instructions" width="45%"> 
+</p>
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/59a78a72-da1f-4239-a8a2-c7de2ac9c5dd" alt="Updated Instructions for LLM" width="75%"> 
 
 
 SPECULATIONS
