@@ -3,14 +3,12 @@
 ![](https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/dogGif.gif)
 
 # Report 9 - Week of 10/23/2023 #
-
+A week for an entire project?? I was ready to have a chill week to decompress from the last report deadline, but I was in for another surprise. However, our class session was actually so interesting with Peter Binggesser hosting a zoom call with us to walk us through his ZeroWidth platform for building user-friendly LLMs. I do not have any experience building (or much exposure even using) LLMs but I know with the rise of AI in every aspect of our lives, LLMs are going to become the next critical aspect of development. We were able to pull in examples of our Github blogs as instructions or data for the LLM to read, so we could play around with the model and see how it could begin answering more personal questions about ourselves!
 <p>
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="AI file for laser cutting box" width="45%"> 
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="assembled laser cut cat box" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="writing instructions for the LLM" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="first convo with LLM after feeding it personal info" width="45%"> 
 </p>
 
-
-PLAYING AROUND
 To further understand how token count affects LLM performance, I did a little more research to obtain a better understanding of how I should manipulate this when choosing how I should go about information management. According to [Microsoft](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens), tokens can be "words, characters, subwords, or symbols". There are several tokenization methods but OpenAI uses a method called "Byte-Pair Encoding (BPE)", which merges the most frequently occurring pairs of characters into a single token, until a certain number of tokens is reached. Tokens are the units used by LLMs to process language, where each subword is converted into a numerical value and placed into a vector. Token count is important to balance between performance and computational power, since tokenization affects the amount of data and number of calculations needed to be processed. Asking the LLM to "be concise" is also a simple way to save when responses are being priced by the token.
 
 Using knowledge sets is a way that ZeroWidth gets around the token limit in "Instructions", by only pulling certain knowledge sets at a time. I was curious as to how breaking up this information for the LLM to retrieve affects the timing in which the model generates a response versus when just pulling from content from "instructions".
@@ -51,11 +49,16 @@ At a temperature of 0.25, it still answered the question but very conservatively
 
 After assessing the types of response given at different temperatures, I decided to set it back to around 0.9, because it so far gives the most reasonable yet creative responses that answer pertaining to the given prompt. This was a really interesting setting to play around with, and I was shocked to see how random, random actually got. Because of the complete nonsense I got when I set it to 1.7, I am wondering why this setting is even possible? In what real life case would a LLM need to be set to this setting?
 
+Another functionality I wanted to implement was for the LLM to scrap my LinkedIn profile, so it can access more information on my previous academics, work experience, and volunteering events. I used ChatGPT to create a Python script to do this, and pasted it in the callable functions but when prompted for this new personal information, the LLM stopped working and popped "an error occurred" message. I am confused as to whether this error is due to privacy scraping issues, incorrect code, or incompatibility within the ZeroWidth platform.
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/a6a0a661-2194-4e68-9517-ae51f44592a7" alt="Updated Instructions for LLM" width="50%"> 
+
 SPECULATIONS
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
 
-QUESTIONS:
-Have you considered including Claude 2 as an option for the base LLM since it has a much higher token limit? Wouldn't this help with context retention if someone was to run a longer conversation with the LLM or want to refer to something previously said?
+QUESTIONS FOR CLASS:
+1. Have you considered including Claude 2 as an option for the base LLM since it has a much higher token limit? Wouldn't this help with context retention if someone was to run a longer conversation with the LLM or want to refer to something previously said?
+2. How can I properly scrape a website so the LLM can access its information?
 
 # Report 8 - Week of 10/16/2023 #
 Ohhh here we are in the final stretch once again. The last week of prototyping is always a rush of madness, excitement, disappointment, and surprises. We started off our last class work session on Monday with the goal of connecting our photons. During this class, Shayne and Katherine were working together to troubleshoot the OLED, since the code seemed to fine but the OLED wasn't displaying any message. Since having at least 2 photons communicate was a base requirement of this project, it was necessary we figured it out and we decided the most efficient way was to split into 2 teams. Going into this session, TJ had posted 2 examples of working code for photon communication but the common understanding was that we had to have one person unclaim their Photon and the other claim a second device. My teammate, Stephanie, and I first tried going this route as she unclaimed her device, but I was unable to claim it since the system continuously recognized her device as belonging to someone else. This was really confusing since we heard that other teams were able to successfully transfer ownership of photons to each other, but we were incredibly lucky that our TA, Shm, was able to give us another workaround. Instead of changing ownership, we would instead create a team and have both of our Photons on their so each team member could access any device on the team. After some troubleshooting, we were able to join the same team and flash code to one another! Below is a picture of Stephanie's photon publishing an event to my photon, which subscribed and responded by blinking the D7 LED. 
