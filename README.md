@@ -53,6 +53,9 @@ Another functionality I wanted to implement was for the LLM to scrap my LinkedIn
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/a6a0a661-2194-4e68-9517-ae51f44592a7" alt="Updated Instructions for LLM" width="50%"> 
 
+As a temporary workaround, I just copy and pasted information from my resume into a new knowledge set and removed the LinkedIn callable function. This helped to troubleshoot whatever error was popping up beforehand and allowed the LLM to now answer more in depth questions about me outside of just this class! 
+
+
 SPECULATIONS:
 
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
