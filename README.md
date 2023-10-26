@@ -19,6 +19,12 @@ After breaking down all my reports into a separate knowledge set and linking it 
 
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/28549dd4-099c-45a6-bac3-240149617c11" width="400" height="500" />
 
+However, when I continued the conversation and tried to ask for details on my first project, the LLM failed and returned a response that indicated my mental health digital ecosystem was the only project I had done in this class! 
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/1fd234d2-b0c7-4ac8-b831-9f8ef410578d" width="400" height="500" />
+
+
+
 SPECULATIONS
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
 
