@@ -15,6 +15,10 @@ To further understand how token count affects LLM performance, I did a little mo
 
 Using knowledge sets is a way that ZeroWidth gets around the token limit in "Instructions", by only pulling certain knowledge sets at a time. I was curious as to how breaking up this information for the LLM to retrieve affects the timing in which the model generates a response versus when just pulling from content from "instructions".
 
+After breaking down all my reports into a separate knowledge set and linking it to my instructions, I wrote a callable function for the LLM to refer to my Github Repo if the user ever wanted to see photos or further documentation on any of my projects. This is because LLMs do not work with images, but a lot of my documentation refers to photos that are integral to understanding. This was the result of my first interaction with it, and I was excited to see that my callable function was used to pass my Github link to the user!
+
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/28549dd4-099c-45a6-bac3-240149617c11" width="400" height="500" />
+
 SPECULATIONS
 This class's LMM demonstration was so intriguing and really opened my eye to the capabilities of AI and LMM. Although it is not a general speculation, I am sort of worried that we will lose our "signature voice". We all have footprints of text that we have typed out in public and if anyone can take this data to plug into an LMM, can't it mimic us to an extremely high level of accuracy? What is stopping anyone from using LMM's to fake someone else's identity for harmful purposes? 
 
