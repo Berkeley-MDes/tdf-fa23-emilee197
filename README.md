@@ -6,37 +6,37 @@
 I have never been so grateful to get a couple extra grace days:) We were originally scheduled to present our LLM videos on Monday, but the instructors were kind enough to push it back to Thursday, so we could have more time exploring the interface and also squeeze in a really cool guest lecture on solar panels and sustainability design! During this week, I got the chance to talk and test my LLM is different ways to see how it would react to different prompting. The first goal I had was to get the LLM to begin talking like a true "mini-me" by answering in first person and taking on a tone similar to mine. It was originally still answering in third person and having really lengthy responses, despite my instructions to "be succint". In the left image below, you can see an example of this. I elaborated in the existing instructions to answer as "me" and to mimic my tone based on the blogs in the knowledge sets. In the right image below, you can see that it's beginning to answer in first person but the tone is still very "chat-gpt-like". 
 
 <p>
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="third person and lengthy LLM response" width="45%"> 
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="first person but informal tone response" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/longThirdPOV.png" alt="third person and lengthy LLM response" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/firstPOV.png" alt="first person but informal tone response" width="45%"> 
 </p>
 
 One fix-around I had for this was to directly inject an example introduction of my writing tone into the instructions. I also explictly told the LLM to use emojis in the response...because it's actually pretty rare for me to send out a text without some kind of emoji hanging around somewhere in it. THIS turned out to be the key, because the LLM finally became talking in a slightly less informal way, but it was still giving long responses that made me worry about hitting token counts in longer conversations.
 
 <p>
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="new instructions with explicit tone excerpt and emojis" width="45%"> 
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="example of new LLM response" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/tone_instr.png" alt="new instructions with explicit tone excerpt and emojis" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/f571604c-ae77-4b99-8f67-c32c455c9931" alt="example of new LLM response" width="45%"> 
 </p>
 
 Something else I tested was to ask the LLM about a project I didn't do. I was wondering whether it would hallucinate and pretend that I did do the project, figure out I never did it, or explictly say that it doesn't have any knowledge on it. Interestingly, the LLM just...didn't respond. It buffered for over 2 minutes before I just refreshed the page.
 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/highRandomTemp.png" alt="buffering LLM" width="40%"> 
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/infinite_buffer.png" alt="buffering LLM" width="40%"> 
 
 With more knowledge now from my blogs and resume, I was interested in seeing what the LLM would respond when asking it questions about my career. Personally, I've been really struggling figuring out what I want to do in the future, so why not ask mini-me! 
 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/highRandomTemp.png" alt="LLM's career predictions for Emily" width="40%"> 
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/career_pred.png" alt="LLM's career predictions for Emily" width="40%"> 
 
 I was honestly quite surprised with this cause I've spent this whole semester trying to grapple with this question and now that I've found a general direction after 3 months, it feels weird to have this LLM so quickly synthesize something so close to being exactly accurate for me. Scary. 
 
 Peter also mentioned in our Monday working session that through prompting, you can often trick the LLM to give out the exact instructions it was written in. I tested this with the LLM and found this to be true, so I changed the instructions to have it restrict it as confidential information! The image on the left is its response before and the image on the right is the response after instruction changes:
 
 <p>
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exChatInstr.png" alt="prior to confidential instruction change" width="45%"> 
-    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/exampleChat.png" alt="post confidential instruction change" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/disclose_instr.png" alt="prior to confidential instruction change" width="45%"> 
+    <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/550cd596-1403-4cf5-af9e-e8008f89b228" alt="post confidential instruction change" width="45%"> 
 </p>
 
 On the topic of privacy, I was also quite surprised to see the level of privacy it already had embedded within it. Even though my phone number is just as accessible as my email on my resume, the LLM refused to give my number out. This made me wonder what the boundary is between what is and isn't acceptable information to release.
 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/highRandomTemp.png" alt="LLM protects my phone number" width="40%"> 
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/number_privacy.png" alt="LLM protects my phone number" width="40%"> 
 
 
 I realized that since I wanted the LLM to now be a "mini-me" and not just a portfolio of my TDF projects, I wanted it to capture a more holistic image of me. I don't currently have any information on my personal interests outside of school, so I was interested in what the LLM would return if I asked...and it surprisingly got 50/50 correct. But still, half of it was made up, so I decided to insert a new knowledge set on my personal hobbies! 
@@ -47,10 +47,11 @@ I realized that since I wanted the LLM to now be a "mini-me" and not just a port
 </p>
 
 HOWEVER, after I included this new chunk of information, the answers the LLM began to give became too centered around my hobbies and interests. 
-<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/highRandomTemp.png" alt="LLM hyperfocuses on hobbies" width="40%"> 
+<img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/hobbies_hyperfocus.png" alt="LLM hyperfocuses on hobbies" width="40%"> 
 
-My core skill is definitely not pilates or dance anymore; I can barely wiggle. This would also be somewhat disastrous if a recruiter was interacting with the LLM and this is what it returned to him or her. Thus, I wrote new instructions to focus primarily on the knowledge inside the blog and resume knowledge sets, instead of the personal information one. I also separated my instructions and used the order of them to prioritize what should be done first. The first one I put was on how to respond and what information to primarily pull from. Second would be tone and how to properly mimic my writing style. I also looked through some more general LLM documentation and came upon this [guide](https://www.promptingguide.ai/introduction/tips) for design prompting. This gave me some tips on making my instructions more clear by using ### separators to separate instruction and context to minimize any chance the model would confuse the two. Taking in all of this info, I went into my backend and cleaned up some of my instructions and knowledge sets to see how it would affect the functioning of the LLM. 
+My core skill is definitely not pilates or dance anymore; I can barely wiggle. This would also be somewhat disastrous if a recruiter was interacting with the LLM and this is what it returned to him or her. Thus, I wrote new instructions to focus primarily on the knowledge inside the blog and resume knowledge sets, instead of the personal information one. I also separated my instructions and used the order of them to prioritize what should be done first. The first one I put was on how to respond and what information to primarily pull from. Second would be tone and how to properly mimic my writing style. I also looked through some more general LLM documentation and came upon this [guide](https://www.promptingguide.ai/introduction/tips) for design prompting. This gave me some tips on making my instructions more clear by using ### separators to separate instruction and context to minimize any chance the model would confuse the two. Taking in all of this info, I went into my backend and cleaned up some of my instructions and knowledge sets and continued experimenting to see how it would affect the functioning of my LLM. 
 
+Although this is the last week of our LLM, I look forward to playing around with the settings more this semester, since Peter has graciously promised us to keep it up until then. Some things that I would like to incorproate in the future is figuring out how to configure the LLM to scrape a website. It's impossible to put all information into these knowledge sets so it would be nice to enable to the LLM to scrap websites for relevant information when needed. When I tried to write a function for the LLM to scrap my LinkedIn profile, it bounced an error and I wasn't able to use the interface anymore. I am unsure of what the issue was (whether it was privacy issues or if I had incorrectly written the function), but I would love exploring this further in the following weeks. In terms of other speculations, I think LLMs have such big potential in our future for becoming customer service representatives for most companies. Documentation is something that everyone hates going through, even if it does have the answers we're looking for, so for companies to have an LLM at the forefront presenting all of the most up-to-date information to users seems incredibly feasible. 
 
 # Report 9 - Week of 10/23/2023 #
 A week for an entire project?? I was ready to have a chill week to decompress from the last report deadline, but I was in for another surprise. However, our class session was actually so interesting with Peter Binggesser hosting a zoom call with us to walk us through his ZeroWidth platform for building user-friendly LLMs. I do not have any experience building (or much exposure even using) LLMs but I know with the rise of AI in every aspect of our lives, LLMs are going to become the next critical aspect of development. We were able to pull in examples of our Github blogs as instructions or data for the LLM to read, so we could play around with the model and see how it could begin answering more personal questions about ourselves!
