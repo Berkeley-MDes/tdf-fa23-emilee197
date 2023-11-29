@@ -39,6 +39,11 @@ _____
 After following this [tutorial](https://github.com/openai/whisper?search=1) of someone's Github Repository from working with Whisper, this was the first result that I got with an example voice recording I did on my Mac:
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-emilee197/assets/71106581/e89e6509-6034-48aa-b5d5-d51612894538)
 
+Here are some of the obstacles I bumped into while coding that I had to navigate through:
+1. prettify JSON response that ZeroWidth returns
+2. Change prettified response to a dictionary in order to access just the output and ignore the rest of the information
+
+
 OH MY GOSH IT'S MY FIRST SUCCESSFUL TRANSLATION FROM VOICE RECORDING TO MY ZEROWIDTH'S INSTRUCTIONS TO RELAY IT IN LAYMAN TERMS!!!
 <img src="https://github.com/Berkeley-MDes/tdf-fa23-emilee197/blob/main/photo/successTranslation.png" alt="first successful translation from recording to Whisper to ZeroWidth API" width="85%"> 
 
